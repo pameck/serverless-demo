@@ -1,0 +1,15 @@
+service: devops-melb-talk
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  stage: dev
+  region: ap-southeast-2
+
+functions:
+  demo-lambda:
+    handler: handler.sayHi
+    events:
+     - http:
+         path: demo/hi
+         method: get
