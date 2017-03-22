@@ -1,0 +1,16 @@
+{
+  "name": "lambdas-demo",
+  "version": "1.0.0",
+  "description": "Sample code for the Api with Lambdas talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "lambdas",
+    "nodejs"
+  ],
+  "author": "Pam Rucinque",
+  "license": "ISC"
+}
